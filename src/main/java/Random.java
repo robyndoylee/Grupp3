@@ -1,7 +1,7 @@
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Random {
-    int r = ThreadLocalRandom.current().nextInt(0, 76));
+    int r = ThreadLocalRandom.current().nextInt(0, 76);
 
 
     /*

@@ -1,10 +1,14 @@
 public class Position {
-    public int v = 0;
-    public int h = 0;
-    final char block = '\u2588';
+    public int x;
+    public int y;
 
-    public Position(int j) {
-        h = j;
+
+
+    public Position(int x, int y) {
+        this.x=x;
+        this.y=y;
+
+
     }
 
 }
