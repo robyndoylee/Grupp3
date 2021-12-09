@@ -73,7 +73,14 @@ public class Main {
             terminal.putCharacter(player.tjar);
 
             terminal.flush();
+
+
+
         }
+        Wall wall = new Wall;
+        for (Position wall : wall.obstacles) {
+            terminal.setCursorPosition(wall, p.y);
+            terminal.putCharacter(block);
     }
 }
 // X = V
